@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body{background-color:rgb(250, 241, 241)}
+#firstContainer {
+  background-image: url(/images/image-hero-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: inline-flex;
+}
+#navBar {
+}
+li {
+  display: inline-flex;
+}
+ul {
+  margin-left: 650px;
+}
+#secondContainer {
+  justify-self: center;
+  width: 800px;
+  margin-left: 25%;
+  padding: 0px;
+  margin-top: -100px;
+  position: absolute;
+  background-color: dark;
+  z-index: 1000;
+}
+#sectionOne {
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: white;
+}
+#sectionOneBtns{display: flex;flex-direction: row;justify-content: space-between;}
+#sectionTwo {
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid 1px;
+  
+  justify-content: center;
+}
+#sectionOne h2{text-align: center;
+padding-top: 20px;
+
+}
+#sectionOne p{text-align: center;
+    padding-top: 10px;}
+    #sectionOne button{margin-left: 10px;
+    margin-right: 10px;}
+.verticalLine {
+  background-color: gray;
+  height: 40px;
+  margin-top: 15px;
+  width: 1px;
+  margin-left: -84px;
+  margin-right: 50;
+}
+#calculations {
+  display: flex;justify-content: space-evenly;
+  margin-left: -110px;
+
+}
+#sectionTwo{
+    background-color: white;
+}
+
+#sectionThree {
+  height: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+}
+#mastercraftLogo {
+  margin-left: 350px;
+  margin-top: -35px;
+}
+.numbers {
+  margin: 10px;
+}
+button {
+  background-color: hsl(176, 50%, 47%);
+  width: auto;
+  height: 30px;
+  border-radius: 18px;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  text-align: center;
+}
+.rightBtn {
+  ;}
+.childsHeading{justify-content: space-between;
+    display:flex;
+flex-direction: row;
+margin-bottom: 20px;
+margin-top: 20px;}
+.childs{padding: 5px;margin-bottom: 10px;margin-top: 10px;
+border: solid rgb(177, 173, 175) 1px;
+border-radius: 10px;}
+span{font-weight: lighter; font-size: 16;color: darkgray;}
+.childsHeading p{color: hsl(176, 50%, 47%)}
+p{color:darkgray;}
