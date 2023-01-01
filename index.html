@@ -19,7 +19,13 @@
     </div>
     <div id="secondContainer">
       <div id="sectionOne">
-        <div id="logoTwo"><img id="mastercraftLogo" src="/images/logo-mastercraft.svg" alt="mastercraftLogo"></div>
+        <div id="logoTwo">
+          <img
+            id="mastercraftLogo"
+            src="/images/logo-mastercraft.svg"
+            alt="mastercraftLogo"
+          />
+        </div>
         <h2>Mastercraft Bamboo Monitor Riser</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit,
@@ -27,27 +33,30 @@
         </p>
         <div id="sectionOneBtns">
           <button id="leftBtn">Back This project</button>
-         <button class="rightBtn">Bookmarked</button>
+          <div id="bookmarked">
+            <img src="./images/icon-bookmark.svg" alt="" />
+            <button class="rightBtn">Bookmarked</button>
+          </div>
         </div>
       </div>
       <div id="sectionTwo">
         <div id="calculations">
-          <div class="numbers">
+          <div id="numbersOne" class="numbers">
             <h2>$89,914</h2>
             <p>of $100,000 backed</p>
           </div>
-          <div class="verticalLine"></div>
-          <div class="numbers">
+
+          <div id="numbersTwo" class="numbers">
             <h2>5,007</h2>
             <p>total backers</p>
           </div>
-          <div class="verticalLine"></div>
-          <div class="numbers">
+
+          <div id="numbersThree" class="numbers">
             <h2>56</h2>
             <p>days left</p>
           </div>
         </div>
-        <div id="loadingLine"></div>
+        <div id="lineContainer"><div id="loadingLine"></div></div>
       </div>
       <div id="sectionThree">
         <h3>About this project</h3>
@@ -68,9 +77,8 @@
           </div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Distinctio, minima. Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Distinctio, minima.
+            Distinctio, minima. Lorem ipsum dolor sit amet. Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. Distinctio, minima.
           </p>
           <div class="childsHeading">
             <h2>101 <span>left</span></h2>
@@ -84,15 +92,15 @@
           </div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Distinctio, minima. Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Distinctio, minima.
+            Distinctio, minima. Lorem ipsum dolor sit amet. Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. Distinctio, minima.
           </p>
           <div class="childsHeading">
             <h2>64 <span>left</span></h2>
             <button class="rightBtn">Select Reward</button>
           </div>
         </div>
+        
         <div class="childs" id="childThree">
           <div class="childsHeading">
             <h3>Muhogany Special Edition</h3>
@@ -100,13 +108,12 @@
           </div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Distinctio, minima. Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Distinctio, minima.
+            Distinctio, minima. Lorem ipsum dolor sit amet. Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. Distinctio, minima.
           </p>
           <div class="childsHeading">
             <h2>0 <span>left</span></h2>
-            <button class="rightBtn">Out of stock</button>
+            <button class="rightBtn" id="bottomBtn">Out of stock</button>
           </div>
         </div>
       </div>
